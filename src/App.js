@@ -3,7 +3,7 @@ import Page from "./components/Page";
 
 
 export default function App() {
-  const [page, addPage] = React.useState([]);
+  const [page, addPage] = React.useState([<Page key={0} />]);
 
   function addNewPage() {
     addPage(pages => [...pages, <Page key={page.length} />])

@@ -4,7 +4,9 @@ import { Grid } from '@mui/material';
 
 
 export default function App() {
-    const [note, addNote] = React.useState([]);
+    const [note, addNote] = React.useState([<Grid item md={4} key={0}>
+        <Note />
+    </Grid>]);
     function addNewNote() {
         if (note.length !== 6) {
             addNote(notes => [...notes, <Grid item md={4} key={note.length}>
