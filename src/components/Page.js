@@ -8,11 +8,9 @@ export default function App() {
         <Note />
     </Grid>]);
     function addNewNote() {
-        if (note.length !== 6) {
-            addNote(notes => [...notes, <Grid item md={4} key={note.length}>
-                <Note />
-            </Grid>]);
-        }
+        addNote(notes => [...notes, <Grid item md={4} key={note.length}>
+            <Note />
+        </Grid>]);
     }
 
     return (
