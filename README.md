@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+# Notes App
+
+Made this app for storing the notes.
+
+## Welcome Page
+![Welcome Page](./src/assets/images/home.jpg)
+
+## After Adding the Notes
+![Notes Page](./src/assets/images/NotesPage.jpg)
+
+## Book Marked Note and Delete Button
+![Book Marked Note](./src/assets/images/BookMarked.jpg)
+![DeleteButton](./src/assets/images/DeleteButton.jpg)
+
+# Welcome Note
+![Welcome Note](./src/assets/images/WelcomeNote.jpg)
+Modules/Frameworks used:
+-   [Material UI](https://mui.com/)
+-   [React Icons](https://react-icons.github.io/react-icons/)
+-   [NanoID](https://www.npmjs.com/package/nanoid)
+
+----
+# Getting Started with React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
