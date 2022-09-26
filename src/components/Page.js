@@ -1,21 +1,23 @@
 import React from "react";
 import Note from "./Note";
 import { Grid } from '@mui/material';
+import { FaPlus } from 'react-icons/fa';
 
 
 export default function App() {
     const [note, addNote] = React.useState([<Grid item md={4} key={0}>
         <Note />
     </Grid>]);
+
     function addNewNote() {
-        addNote(notes => [...notes, <Grid item md={4} key={note.length}>
+        addNote(notes => [<Grid item md={4} key={note.length}>
             <Note />
-        </Grid>]);
+        </Grid>, ...notes]);
     }
 
     return (
         <>
-            <button onClick={addNewNote}>Add a new note+</button>
+            <button onClick={addNewNote}><FaPlus /></button>
             <Grid container spacing={2}>
                 {note}
             </Grid>
