@@ -1,6 +1,6 @@
 # Notes App
 
-Made this app for storing the notes.
+### *Made this app for storing the notes.*
 
 ## Welcome Page
 ![Welcome Page](./src/assets/images/home.jpg)
@@ -14,7 +14,9 @@ Made this app for storing the notes.
 
 # Welcome Note
 ![Welcome Note](./src/assets/images/WelcomeNote.jpg)
-Modules/Frameworks used:
+
+
+### Modules/Frameworks used:
 -   [Material UI](https://mui.com/)
 -   [React Icons](https://react-icons.github.io/react-icons/)
 -   [NanoID](https://www.npmjs.com/package/nanoid)
